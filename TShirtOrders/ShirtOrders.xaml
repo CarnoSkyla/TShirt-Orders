@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TShirtOrders.ShirtOrders">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Your Cart"/>
+            <ListView ItemsSource="{Binding orders}" RowHeight="90" HasUnevenRows="True" ItemTapped="ListView_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+                            <ViewCell.ContextActions>
+                                <MenuItem Clicked="MenuItem_Clicked" CommandParameter="{Binding .}" Text="Delete"></MenuItem>
+                            </ViewCell.ContextActions>
+
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                
+                                <Label Text="{Binding TShirtSize}" Grid.Column="0" Grid.Row="0"/>
+                                <Label Text="{Binding TShirtColor}" Grid.Column="1" Grid.Row="1"/>
+                                <Label Text="{Binding Gender}" Grid.Column="1" Grid.Row="2"/>
+                                <Button Text="Post" Grid.Column="2" Grid.Row="0" x:Name="PostBtn" Clicked="PostBtn_Clicked"/>
+                                <Button Text="Show Map" Grid.Column="2" Grid.Row="1" x:Name="MapBtn" Clicked="MapBtn_Clicked"/>
+                                <Button Text="Delete Order" Grid.Column="2" Grid.Row="2" x:Name="Delete" Clicked="Delete_Clicked"/>
+                            </Grid>
+                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

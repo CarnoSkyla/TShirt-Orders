@@ -1,0 +1,15 @@
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\MainPage.xaml.g.cs
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\ShirtOrders.xaml.g.cs
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\TShirtDetails.xaml.g.cs
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\TShirtOrders.AssemblyInfoInputs.cache
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\TShirtOrders.AssemblyInfo.cs
+C:\Xamarin\TShirtOrders\TShirtOrders\bin\Debug\netstandard2.1\TShirtOrders.deps.json
+C:\Xamarin\TShirtOrders\TShirtOrders\bin\Debug\netstandard2.1\TShirtOrders.dll
+C:\Xamarin\TShirtOrders\TShirtOrders\bin\Debug\netstandard2.1\ref\TShirtOrders.dll
+C:\Xamarin\TShirtOrders\TShirtOrders\bin\Debug\netstandard2.1\TShirtOrders.pdb
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\TShirtOrders.dll
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\ref\TShirtOrders.dll
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\TShirtOrders.pdb
+C:\Xamarin\TShirtOrders\TShirtOrders\obj\Debug\netstandard2.1\TShirtOrders.csprojAssemblyReference.cache

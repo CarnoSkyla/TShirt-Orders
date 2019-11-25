@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TShirtOrders.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Carno's Tshirts"  Clicked="Button_Clicked"/>
+        <ToolbarItem Text="Back To Home Page" Order="Secondary" />
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Place Your Order" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" FontSize="Large" Margin="20"/>
+
+        <Label Text="Your Name" FontAttributes="Bold"/>
+
+        <Entry Placeholder="Name" x:Name="Name"/>
+
+        <Label Text="Gender"/>
+       
+        <Entry Placeholder="Male/Female" x:Name="gender"/>
+
+        <Label Text="Color"/>
+        <Entry  x:Name="color"/>
+
+        <Label Text="Size"/>
+        <Entry x:Name="size" Placeholder="Ranges from XS - XXL"/>
+
+        <Label Text="Date"/>
+        <FlexLayout>
+            <Entry Placeholder="Choose Date" PlaceholderColor="PaleGoldenrod"/>
+            <DatePicker x:Name="date"/>
+        </FlexLayout>
+        
+
+        <Label Text="Shipping Address"/>
+        <Entry x:Name="address"/>
+        <Button x:Name="add" Text="Submit" Clicked="add_Clicked"/>
+        <Button Text="To Page" Clicked="Button_Clicked_1"></Button>
+
+    </StackLayout>
+
+</ContentPage>
+
+    
